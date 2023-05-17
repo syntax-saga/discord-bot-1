@@ -1,8 +1,8 @@
-import requests
+import requests # pip install requests
 
-channel_id = "1107962541407223868"
+channel_id = "YOUR CHANNEL ID" #The channel id should be replaced with your channel id as shown in the video in youtube.
 url = f"https://discord.com/api/v9/channels/{channel_id}/messages"
-authorization = "MTEwNzk2MTg3MjQxNTcyNzcyNw.GsB4iY.a_O3UE9Y3JLID_w0cvbqeY0FSOlgEx1FGmej3A"
+authorization = "YOUR AUTHORIZATION" #The authorization token should be replaced with your authorization key, also shown in video.
 
 message = input("Message: ")
 
